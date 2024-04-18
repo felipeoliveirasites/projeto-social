@@ -43,10 +43,19 @@ iframe#tela {
     height: 471px;
 }
 
+/*section#redes-sociais {
+   text-align: right;
+    
+}*/
+
+ 
 section#redes-sociais {
-    position: relative;
-    text-align: right;
-    z-index: 1;
+    display: flexbox;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    
 }
 
 section#redes-sociais img {
@@ -55,7 +64,6 @@ section#redes-sociais img {
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
-    z-index: 1;
 }
 
 section#redes-sociais img:hover { /*pode ser no link também mas melhor no img*/
